@@ -1,0 +1,26 @@
+{
+  "name": "spaceman-demos",
+  "description": "Demo repository for Spaceman CLI",
+  "version": "1.0.0",
+  "author": "Dave Stewart",
+  "license": "ISC",
+  "keywords": [
+    "spaceman",
+    "monorepo"
+  ],
+  "scripts": {
+    "install": "node install.js"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "shelljs": "^0.8.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davestewart/spaceman-demos.git"
+  },
+  "homepage": "https://github.com/davestewart/spaceman-demos#readme",
+  "bugs": {
+    "url": "https://github.com/davestewart/spaceman-demos/issues"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "postinstall": "pnpm link --global spaceman"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-custom": "workspace:*",
+    "spaceman": "*",
+    "turbo": "latest"
+  }
+}
